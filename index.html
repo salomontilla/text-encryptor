@@ -7,7 +7,7 @@
 </head>
 <body>
     <header id="header">
-        <h1 id="titulo">Encriptador de texto</h1>
+        <h1 id="title">Encriptador de texto</h1>
         <img src="/assets/Logo.png" alt="Alura Logo" id="logoAlura">
     </header>
     <main id="main">
@@ -17,6 +17,18 @@
             <textarea id="message" name="message" rows="4" cols="50" placeholder="Ingresa tu mensaje"></textarea>
         </form>
 
+        <div id="panel">
+            <img src="/assets/Woman.png" alt="Woman" id="woman">
+            <h2>Ningun mensaje fue encontrado.</h2>
+            <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+            <button id="btnCopiar" >Copiar</button>
+        </div>
+
+        <p id="avisoText"><img src="assets/Aviso.png" id="aviso">Solo letras minúsculas y sin acentos</p>
+        <div id="buttons">
+            <button id="btnEncriptar">Encriptar</button>
+            <button id="btnDesencriptar">Desencriptar</button>
+        </div>
 
     </main>
     <footer id="footer">
