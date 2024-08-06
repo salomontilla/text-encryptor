@@ -8,6 +8,7 @@
 header{
     font-family: 'Inter', sans-serif;
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 5em;
     position: relative;
@@ -21,4 +22,24 @@ header{
 }
 .title_header{
    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+.form{
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-left: 2em;
+    
+}
+.textArea_form{
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    height: 80%;
 }
