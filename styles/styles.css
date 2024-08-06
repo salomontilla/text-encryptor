@@ -10,8 +10,15 @@ header{
     display: flex;
     align-items: center;
     height: 5em;
+    position: relative;
+    padding: 0 5em;
     
 }
 .logoAlura{
     width: 5em;
+    position: absolute;
+    left: 0;
+}
+.title_header{
+   margin: 0 auto;
 }
