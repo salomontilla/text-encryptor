@@ -4,3 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 5em;
+    
+}
+.logoAlura{
+    width: 5em;
+}
