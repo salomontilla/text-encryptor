@@ -12,27 +12,40 @@
     </header>
     <main id="main">
 
-        <form id="form">
-            <label for="message">Ingresa el texto aqui:</label>
-            <textarea id="message" name="message" rows="4" cols="50" placeholder="Ingresa tu mensaje"></textarea>
+        <form class="form">
+            <label class="label_form">Ingresa el texto aqui:</label>
+            <textarea class="textArea_form" name="message" rows="4" cols="50" placeholder="Ingresa tu mensaje"></textarea>
         </form>
 
-        <div id="panel">
+        <div class="rightPane">
             <img src="/assets/Woman.png" alt="Woman" id="woman">
             <h2>Ningun mensaje fue encontrado.</h2>
             <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
-            <button id="btnCopiar" >Copiar</button>
+            <textarea class="textArea_Pane"  readonly></textarea>
+            <button class="btnCopiar" >Copiar</button>
         </div>
 
-        <p id="avisoText"><img src="assets/Aviso.png" id="aviso">Solo letras minúsculas y sin acentos</p>
-        <div id="buttons">
-            <button id="btnEncriptar">Encriptar</button>
-            <button id="btnDesencriptar">Desencriptar</button>
+        <p class="avisoText"><img src="assets/Aviso.png" id="aviso">Solo letras minúsculas y sin acentos</p>
+        <div class="buttons_encryption">
+            <button>Encriptar</button>
+            <button>Desencriptar</button>
         </div>
 
     </main>
-    <footer id="footer">
-        <p>Footer Section</p>
+    <footer class="footer">
+        <p id="credit">Página desarrollada por Salomón Montilla Luna</p>
+    <div class="social_links">
+        <a href="https://www.instagram.com/salomontilla._/" target="_blank" aria-label="Instagram">
+            <img src="/assets/instagram.png" alt="Instagram">Instagram
+        </a>
+        <a href="https://github.com/salomontilla" target="_blank" aria-label="GitHub">
+            <img src="/assets/github.png" alt="GitHub">GitHub
+        </a>
+        <a href="www.linkedin.com/in/salomon-montilla-luna" target="_blank">
+            <img src="/assets/linkedin.png" alt="LinkedIn">LinkedIn
+        </a>
+    </div>
     </footer>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
