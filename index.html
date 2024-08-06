@@ -13,24 +13,28 @@
     </header>
     <main>
 
-        <form class="form">
-            <label>Ingresa el texto aqui:</label>
-            <textarea class="textArea_form" name="message" rows="4" cols="50" ></textarea>
-        </form>
+        
+        <div class="leftPane">
+            <form class="form">
+                <label>Ingresa el texto aqui:</label>
+                <textarea class="textArea_form" name="message" rows="4" cols="50" ></textarea>
+            </form>
+            <p class="avisoText"><img src="assets/Aviso.png" class="aviso">Solo letras minúsculas y sin acentos</p>
+            <div class="buttons_encryption">
+                <button>Encriptar</button>
+                <button>Desencriptar</button>
+            </div>
+        </div>
 
         <div class="rightPane">
             <img src="/assets/Woman.png" alt="Woman" class="woman">
             <h2>Ningun mensaje fue encontrado.</h2>
             <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
-            <textarea class="textArea_Pane"  readonly></textarea>
+            <textarea class="textArea_Rpane"  readonly></textarea>
             <button class="btnCopiar" >Copiar</button>
         </div>
 
-        <p class="avisoText"><img src="assets/Aviso.png" class="aviso">Solo letras minúsculas y sin acentos</p>
-        <div class="buttons_encryption">
-            <button>Encriptar</button>
-            <button>Desencriptar</button>
-        </div>
+        
 
     </main>
     <footer class="footer">
