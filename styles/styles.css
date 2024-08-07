@@ -140,7 +140,9 @@ main{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
     flex: content;
-    margin: 3em;
+    margin: 2em 3em 2em 3em;
+    gap: 1em;
+    border-radius: 8px;
     
 }
 .woman{
