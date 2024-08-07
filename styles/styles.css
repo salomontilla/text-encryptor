@@ -14,6 +14,7 @@ header{
     height: 10%;
     position: relative;
     padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
 .logoAlura{
@@ -33,6 +34,8 @@ header{
         align-items: center;
         height: auto;
         padding: 1em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
     }
     .logoAlura{
         width: 5em;
@@ -55,12 +58,13 @@ main{
     font-family: 'Inter', sans-serif;
     color: #0A3871;
     margin-left: 2em;
+    
 }
 .form{
     height: 35em;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 1em;
     padding-top: 1em;
     
 }
@@ -76,7 +80,37 @@ main{
     outline: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.textArea_form:focus{
+    border-color: #9490d6; /* Color del borde al enfocar */
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
+}
 .avisoText{
-    
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+}
+.avisoText img.aviso{
+    margin-right: 0.5em;
+    width: 1em;
+}
+.buttons_encryption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 5%;
+    padding-top: 2%;
+}
+.buttons_encryption button{
+    border: none; 
+    border-radius: 8px; 
+    padding: 1em 1em; 
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.btnEncriptar{
     
 }
