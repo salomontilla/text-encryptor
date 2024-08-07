@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, p, label{
+    font-size: calc(0.5em + 1vw);
+}
 
 header{
     font-family: 'Inter', sans-serif;
@@ -32,7 +35,7 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: auto;
+        height: 10%;
         padding: 1em;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         
@@ -47,9 +50,7 @@ header{
 }
 main{
     display: flex;
-    align-items: center;
     background-color: #F3F5FC;
-    
 }
 .leftPane{
     flex: 0 0 60%;
@@ -127,8 +128,20 @@ main{
 }
 .rightPane{
     font-family: 'Inter', sans-serif;
-    flex: 0 0 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: content;
+    margin: 3em;
+    
+}
+.woman{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain; 
 }
