@@ -48,13 +48,12 @@ header{
 main{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 5em;
     background-color: #F3F5FC;
     
 }
 .leftPane{
-    flex: 1;
+    flex: 0 0 60%;
+    width: 60%;
     font-family: 'Inter', sans-serif;
     color: #0A3871;
     margin-left: 2em;
@@ -125,4 +124,11 @@ main{
 }
 .btnDesencriptar:hover{
     background-color: #bbc0c6;
+}
+.rightPane{
+    font-family: 'Inter', sans-serif;
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
