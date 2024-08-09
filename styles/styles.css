@@ -250,6 +250,7 @@ main{
     .final_state{
         display: none;
         padding: 4%;
+        gap: 2em;
     }
     .btnCopiar{
         font-size: calc(0.1em + 1vw + 1vw);
