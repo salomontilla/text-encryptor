@@ -138,19 +138,24 @@ main{
 }
 .rightPane{
     font-family: 'Inter', sans-serif;
+    display: contents;
+}
+.initial-state{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 30%;
+    height: 90%;
+    padding: 2em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
-    flex: content;
     margin: 2em 3em 2em 3em;
-    gap: 1em;
+    gap: 2em;
     border-radius: 8px;
     background-color: #FFFFFF;
-    
 }
+
 .woman{
     max-width: 100%;
     max-height: 100%;
