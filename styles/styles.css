@@ -157,7 +157,6 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2em;
     gap: 2em;
     height: 100%;
 }
@@ -197,7 +196,7 @@ main{
     background-color: #eff0f0;
 }
 /* Media Queries para Tablets */
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
     h2, p, label, .textArea_form{
         font-size: calc(0.3em + 2vw);
     }
@@ -233,16 +232,19 @@ main{
         height: 100%;
     }
     .container{
-        height: 50%;
+        width: 60em;
+        height: 70%;
         border-radius: 32px;
-        max-height: 70%;
+        max-height: 115px;
+        padding: 3%;
+        margin: 0;
         
     }
     .initial_state .woman{
         display: none;
     }
     .initial_state{
-        font-size: calc(0.3em + 1vw )
+        font-size: calc(0.3em + 0.1vw )
     }
   
 
