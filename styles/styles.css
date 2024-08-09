@@ -159,6 +159,7 @@ main{
     text-align: center;
     gap: 2em;
     height: 100%;
+    padding: 5%;
 }
 
 .woman{
@@ -235,16 +236,22 @@ main{
         width: 60em;
         height: 70%;
         border-radius: 32px;
-        max-height: 115px;
         padding: 3%;
         margin: 0;
-        
     }
-    .initial_state .woman{
+    .woman{
         display: none;
     }
     .initial_state{
-        font-size: calc(0.3em + 0.1vw )
+        font-size: calc(0.3em + 0.1vw );
+        display: none;
+    }
+    .final_state{
+        display: flex;
+    }
+    .btnCopiar{
+        font-size: calc(0.1em + 1vw + 1vw);
+        width: 50%;
     }
   
 
