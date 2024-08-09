@@ -21,12 +21,12 @@
             </form>
             <p class="avisoText"><img src="assets/Aviso.png" class="aviso">Solo letras minúsculas y sin acentos</p>
             <div class="buttons_encryption">
-                <button class="btnEncriptar">Encriptar</button>
+                <button onclick="hideInitialDiv()" class="btnEncriptar">Encriptar</button>
                 <button class="btnDesencriptar">Desencriptar</button>
             </div>
         </div>
         <div class="rightPane">
-            <div class="initial-state">
+            <div id="initial-state" class="initial-state">
                 <img src="/assets/Woman.png" alt="Woman" class="woman">
                 <h2>Ningun mensaje fue encontrado.</h2>
                 <p>Ingresa el texto que deseas encriptar o desencriptar.</p>

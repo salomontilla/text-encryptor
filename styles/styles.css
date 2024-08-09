@@ -139,6 +139,7 @@ main{
 .rightPane{
     font-family: 'Inter', sans-serif;
     display: contents;
+    font-size: calc(0.1em + 1vw);
 }
 .initial-state{
     display: flex;
