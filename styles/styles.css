@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1, h2, p, label{
+h1{
+    font-size: calc(0.3em + 2vw);
+}
+h2, p, label{
     font-size: calc(0.3em + 1vw);
 }
 button{
@@ -34,23 +37,20 @@ header{
 .title_header{
    margin: 0 auto;
 }
-@media(max-width: 500px){
+@media(max-width: 400px){
     header{
         text-align: center;
         display: flex;
-        flex-direction: column;
+        
         justify-content: center;
         align-items: center;
-        height: 10%;
+        height: 5vh;
         padding: 1.5%;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         
     }
     .logoAlura{
-        width: 3em;
-        position: static;
-        margin-bottom: 10px;
-        text-align: center;
+        
     }
     
 }
@@ -59,7 +59,7 @@ main{
     background-color: #F3F5FC;
     height: 92vh;
 }
-.leftPane{
+.inputPane{
     flex: 0 0 60%;
     width: 60%;
     font-family: 'Inter', sans-serif;
@@ -139,7 +139,7 @@ main{
 .btnDesencriptar:hover{
     background-color: #bbc0c6;
 }
-.rightPane{
+.outputPane{
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
@@ -198,4 +198,11 @@ main{
 }
 .btnCopiar:hover{
     background-color: #eff0f0;
+}
+/* Media Queries para Tablets */
+@media (max-width: 768px) {
+    main {
+        font-size: calc(0.5em + 1vw);
+        flex-direction: column; 
+    }
 }

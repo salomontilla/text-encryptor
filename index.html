@@ -14,7 +14,7 @@
     <main>
 
         
-        <div class="leftPane">
+        <div class="inputPane">
             <form class="form">
                 <label>Ingresa el texto aqui:</label>
                 <textarea class="textArea_form" name="message" rows="4" cols="50" ></textarea>
@@ -22,10 +22,10 @@
             <p class="avisoText"><img src="assets/Aviso.png" class="aviso">Solo letras minúsculas y sin acentos</p>
             <div class="buttons_encryption">
                 <button onclick="hideInitialDiv()" class="btnEncriptar">Encriptar</button>
-                <button class="btnDesencriptar">Desencriptar</button>
+                <button id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
             </div>
         </div>
-        <div class="rightPane">
+        <div class="outputPane">
             <div  class="container">
                 <div id="initial_state" class="initial_state">
                     <img src="/assets/Woman.png" alt="Woman" class="woman">
