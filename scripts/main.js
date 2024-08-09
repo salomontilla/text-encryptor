@@ -1,3 +1,3 @@
 function hideInitialDiv() {
-    //document.getElementById("container").style.display = "none";
+    document.getElementById("initial_state").style.display = "none";
 }
