@@ -256,8 +256,27 @@ main{
         font-size: calc(0.1em + 1vw + 1vw);
         width: 50%;
     }
-  
-
+}
+/*Phone display*/
+@media (max-width: 600px){
     
-   
+    main{
+        justify-content: space-around;
+    }
+    .form {
+        justify-content: space-evenly;
+    }
+    .buttons_encryption{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .buttons_encryption button{
+        font-size: calc(0.1em + 3vw);
+    }
+    .initial_state{
+        font-size: calc(0.1em + 4vw);
+        gap: 2em;
+        
+    }
 }
