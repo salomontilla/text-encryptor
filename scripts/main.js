@@ -2,6 +2,7 @@
 function encrypt() {
    let contenido = document.getElementById('textArea').value;
    let textElement = document.getElementById('textConverted');
+   document.getElementById("btnCopiar").textContent = "Copiar";
 
    if (contenido != '') {
       textElement.textContent = contenido
@@ -14,6 +15,7 @@ function encrypt() {
 
       document.getElementById("initial_state").style.display = "none";
       document.getElementById("final_state").style.display = "flex";
+      
    } else {
       document.getElementById("initial_state").style.display = "flex";
       document.getElementById("final_state").style.display = "none";
@@ -24,6 +26,7 @@ function encrypt() {
 function decrypt() {
    let contenido = document.getElementById('textArea').value;
    let textElement = document.getElementById('textConverted');
+   document.getElementById("btnCopiar").textContent = "Copiar";
 
    if (contenido != '') {
       textElement.textContent = contenido
@@ -44,7 +47,8 @@ function decrypt() {
 }
 
 
-async function copy() {
+function copy() {
    let text = document.getElementById("textConverted").textContent;
    navigator.clipboard.writeText(text);
+   document.getElementById("btnCopiar").textContent = "Copiado!";
 }
