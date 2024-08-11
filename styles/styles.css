@@ -277,13 +277,13 @@ main{
     }
    
     .initial_state{
-        display: none;
+        display: flex;
         font-size: calc(0.1em + 4vw);
         gap: 2em;
         
     }
     .final_state{
-        display: flex;
+        display: none;
         font-size: calc(0.1em + 5vw);
     }
     .btnCopiar{
@@ -325,4 +325,9 @@ a{
 }
 a:hover{
     color: #22eded;
+}
+@media(max-width: 600px){
+    .social_links img{
+        max-width: 15%;
+    }
 }
