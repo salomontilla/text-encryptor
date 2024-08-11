@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    
     <header>
         <img src="assets/Logo.png" alt="Alura Logo" class="logoAlura">
         <h1 class="title_header">Encriptador de texto</h1>
     </header>
-    <main id="main">
 
-        
+    <main >
         <div class="inputPane">
             <form class="form">
                 <label>Ingresa el texto aqui:</label>
-                <textarea class="textArea_form" name="message" rows="4" cols="50" ></textarea>
+                <textarea id="textArea" class="textArea_form" name="message" rows="4" cols="50" ></textarea>
             </form>
             <p class="avisoText"><img src="assets/Aviso.png" class="aviso">Solo letras minúsculas y sin acentos</p>
             <div class="buttons_encryption">
-                <button onclick="hideInitialDiv()" class="btnEncriptar">Encriptar</button>
-                <button id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
+                <button onclick="encrypt()" class="btnEncriptar">Encriptar</button>
+                <button onclick="decrypt()" class="btnDesencriptar">Desencriptar</button>
             </div>
         </div>
         <div class="outputPane">

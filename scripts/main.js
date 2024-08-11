@@ -1,7 +1,15 @@
-const mediaQuery = window.matchMedia("(max-width: 768px)");
-function hideInitialDiv() {
-   document.getElementById("initial_state").style.display = "none";
-   document.getElementById("final_state").style.display = "flex";
+
+function encrypt() {
+   let textContent = document.getElementById('textArea').value;
+   if(textContent!= ''){
+      document.getElementById("initial_state").style.display = "none";
+      document.getElementById("final_state").style.display = "flex";
+   }
+   
+   
+}
+function decrypt(){
+
 }
 
     
