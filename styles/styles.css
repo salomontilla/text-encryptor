@@ -194,7 +194,7 @@ main{
 .btnCopiar:hover{
     background-color: #eff0f0;
 }
-/* Media Queries para Tablets */
+/* Media Queries Tablets */
 @media (max-width: 1024px) {
     h2, p, label, .textArea_form{
         font-size: calc(0.3em + 2vw);
